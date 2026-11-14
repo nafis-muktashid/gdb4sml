@@ -1,0 +1,53 @@
+# Local Python environment and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Papers, drafts, and LaTeX build products (kept on disk, not on GitHub)
+*.pdf
+*.tex
+*.aux
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.toc
+*.lof
+*.lot
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.synctex\(busy\)
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.log
+_archive/
+
+# Trained weights and regenerated target / corpus caches
+artifacts/
+artifacts/checkpoints/
+artifacts/targets/
+artifacts/embeddings/
+artifacts/corpus/
+artifacts/.hf_cache/
+*.pt
+*.pth
+*.npy
+*.npz
+*.bin
+*.model
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
